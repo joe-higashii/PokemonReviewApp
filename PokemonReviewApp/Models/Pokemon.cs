@@ -1,0 +1,12 @@
+// Pokemon.cs
+
+namespace PokemonReviewApp.Models
+{
+    public class Pokemon
+    {
+        public int Id { get; set; }
+        public required string Name { get; set; }
+        public DateTime BirthDate { get; set; }
+    }
+}
+
